@@ -15,6 +15,6 @@ if __name__ == '__main__':
         print('Заданный список пуст', file=sys.stderr)
         exit(1)
 
-    b = [abs(i) for i in a]
-    i_min = b.index(min(b))
+    a = [abs(i) for i in a]
+    i_min = a.index(min(a))
     print(i_min)

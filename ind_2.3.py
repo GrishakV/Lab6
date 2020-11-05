@@ -16,6 +16,9 @@ if __name__ == '__main__':
     if not x:
         print('Заданный список пуст', file=sys.stderr)
         exit(1)
+    if b > a:
+        print('a не может быть больше b', file=sys.stderr)
+        exit(1)
 
     new_x = [i for i in x if not a <= i <= b]
     z = len(x) - len(new_x)
