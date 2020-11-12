@@ -16,7 +16,7 @@ if __name__ == '__main__':
     if not x:
         print('Заданный список пуст', file=sys.stderr)
         exit(1)
-    if b > a:
+    if a > b:
         print('a не может быть больше b', file=sys.stderr)
         exit(1)
 

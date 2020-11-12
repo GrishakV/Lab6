@@ -17,4 +17,4 @@ if __name__ == '__main__':
 
     a = [abs(i) for i in a]
     i_min = a.index(min(a))
-    print(i_min)
+    print(i_min+1)
