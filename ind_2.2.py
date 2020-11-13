@@ -15,9 +15,9 @@ if __name__ == '__main__':
         print('Заданный список пуст', file=sys.stderr)
         exit(1)
 
-    for i in a:
-        if i < 0:
-            a_den = a.index(i)
+    for i, j in enumerate(a):
+        if j < 0:
+            a_den = i
             break
 
     new_a = a[a_den+1:]
